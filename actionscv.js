@@ -157,43 +157,8 @@ function removetext(id){
 
 
 
-// function movetitle(){ 
-//     if (offset>=200){
-//         clearInterval(imagemove);
-//         offset = 200;
-//         document.getElementById("titleaboutme").style.left = "200px";
-//     }
-//     offset += 10;
-//     document.getElementById("titleaboutme").style.position = "relative";
-//     document.getElementById("titleaboutme").style.left = "-"+ (offset)+ "px";
-//     console.log(offset);
-    
-// }
 
-// function movetitleback(){
-    
-//     if (offset<=0){
-//         clearInterval(imagemoveback);
-//         offset = 0;
-//         document.getElementById("titleaboutme").style.left = "0px";
-//     }
-
-//     offset -= 10;
-//     document.getElementById("titleaboutme").style.position = "relative";
-//     document.getElementById("titleaboutme").style.left = "-"+ (offset)+ "px";
-//     console.log(offset);
-    
-// }
-
-
-
-
-
-
-
-
-
-// for media
+// for contact
 function emailsent() {
     var nameuser = document.getElementById("username").innerText();
     window.alert("Thank you for your interest, I will reach you out soon "+nameuser);
