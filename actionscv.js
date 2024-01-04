@@ -57,7 +57,6 @@ function showcontent(idimage) {
 
         // document.getElementById(idimagelist[i]).style.display = "none";
         document.getElementById(idimage).style.display = "block";
-        window.scrollTo(0,0);
     }
     return;
 }
@@ -147,12 +146,52 @@ function notmakebold(id){
     document.getElementById(id).style.transform = "scale(1)";
 }
 
+
+// for aboutme
 function showtext(id){
     document.getElementById(id).style.display = "block";
 }
 function removetext(id){
     document.getElementById(id).style.display = "none";
 }
+
+
+
+// function movetitle(){ 
+//     if (offset>=200){
+//         clearInterval(imagemove);
+//         offset = 200;
+//         document.getElementById("titleaboutme").style.left = "200px";
+//     }
+//     offset += 10;
+//     document.getElementById("titleaboutme").style.position = "relative";
+//     document.getElementById("titleaboutme").style.left = "-"+ (offset)+ "px";
+//     console.log(offset);
+    
+// }
+
+// function movetitleback(){
+    
+//     if (offset<=0){
+//         clearInterval(imagemoveback);
+//         offset = 0;
+//         document.getElementById("titleaboutme").style.left = "0px";
+//     }
+
+//     offset -= 10;
+//     document.getElementById("titleaboutme").style.position = "relative";
+//     document.getElementById("titleaboutme").style.left = "-"+ (offset)+ "px";
+//     console.log(offset);
+    
+// }
+
+
+
+
+
+
+
+
 
 // for media
 function emailsent() {
